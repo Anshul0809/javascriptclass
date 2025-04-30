@@ -1,0 +1,9 @@
+java script 
+envent by Brendan each   1995 
+(10days)\
+starting name- mocha
+registered name - ECMA script (European Computer Manufacturers Association) (shortform-ES)
+2015 ke baad se jyda java script (es6 ubdate)
+1995(frontend/cliteside)
+2008(backend serverside)
+Defination-java script is an clinteside serverside scripting language.(lightwaitedlanguage)
