@@ -7,3 +7,72 @@ registered name - ECMA script (European Computer Manufacturers Association) (sho
 1995(frontend/cliteside)
 2008(backend serverside)(note js me backend me use huii)
 Defination-java script is an clinteside serverside scripting language.(lightwaitedlanguage)
+
+.window.confirm('are you okay')
+.window.prompt('Do you know my name')
+.window.alert('this is alert message')
+.parseInt() ,parseFloat() ,Number()   (string to number convert)
+..ex= function a(){
+    var a= Number (window.prompt('enter 1st number'))
+    console.log(a)
+var b= Number (window.prompt('enter second number'))
+    console.log(b)
+   alert(a+b)
+}
+a()   
+
+. BOM =browser object model
+//def.= intrection with the browser windom.
+
+.//condition statement 
+
+//if {},else{}
+
+example= function shivani(){
+ var a= Number (prompt("enter a number"))
+ if(a%2==0)
+ {
+    alert("Even number")
+ }
+ else{
+    alert("odd number")
+ }
+
+}
+shivani()
+
+example2=
+ function shivani(){
+ var a= Number (prompt("enter age"))
+ if(a>=18)
+ {
+    alert("you can vote")
+ }
+ else{
+    alert("you cant vote")
+ }
+
+}
+shivani()
+
+for loop example=
+function ans(){
+    
+    for(var a=1; a<=10; a++)
+    {
+        console.log(a)
+    }
+}
+ans()
+example confirm..=
+function ans (_){
+  var a=  confirm("do you like my website")
+  if (a){
+    alert("thanks")
+  }
+  else{
+    alert("sorry")
+  }
+
+}
+ans()

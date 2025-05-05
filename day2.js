@@ -8,6 +8,7 @@ function subh(){
     //bom(browser object model)
 
     // window.alert('this is alert message')
+
 //    var ans= window.confirm('are you okay')
 //    console.log(ans) 
 
@@ -20,19 +21,15 @@ function patel(){
 }
 // patel()
 // subh()
+// parseInt() ,parseFloat() ,Number()   (string to number convert)
 function a(){
-    var a=window.prompt('enter 1st number')
+    var a= Number (window.prompt('enter 1st number'))
+    console.log(a)
+var b= Number (window.prompt('enter second number'))
+    console.log(b)
+   alert(a+b)
+}
+a()         
 
-}
-function b(){
-    var b=window.prompt('enter second number')
-}
 
-function c(){
-    
-   window.alert.log(a+b)
-}
-a()
-b()
-c()
 
