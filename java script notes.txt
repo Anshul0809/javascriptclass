@@ -76,3 +76,10 @@ function ans (_){
 
 }
 ans()
+example=
+function ans(){
+var a =prompt("enter you age")
+var b= a>= 18 ? "you are vote" : "you cant vote";
+ alert (b)
+}
+ans()
