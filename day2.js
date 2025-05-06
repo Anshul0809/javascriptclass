@@ -21,7 +21,7 @@ function patel(){
 }
 // patel()
 // subh()
-// parseInt() ,parseFloat() ,Number()   (string to number convert)
+// parseInt() ,parseFloat() ,Number()   (string to number convert/type corsian)
 function a(){
     var a= Number (window.prompt('enter 1st number'))
     console.log(a)

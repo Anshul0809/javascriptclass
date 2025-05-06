@@ -21,7 +21,7 @@ var b= Number (window.prompt('enter second number'))
 }
 a()   
 
-. BOM =browser object model
+** BOM =browser object model
 //def.= intrection with the browser windom.
 
 .//condition statement 
@@ -83,3 +83,6 @@ var b= a>= 18 ? "you are vote" : "you cant vote";
  alert (b)
 }
 ans()
+
+*priority of operator in js
+1.string 2.Number
