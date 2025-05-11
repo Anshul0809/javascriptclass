@@ -6,7 +6,7 @@
 // 2.slice()
 // 3.concat()
 // 4.substring()
-// 5.replace() *
+// 5.replace() * 
 // 6.touppercase()
 // 7.tolowercase()
 // 8.trim()
@@ -27,5 +27,12 @@ len() //output 8
 // 2.slice()
  let text="this isstringfrom cybrom"
  console.log(text.slice(7,13)) //output this is string
+
+ //6 touppercase()
+ function upper(){
+    let text="this is capital letter"
+    console.log(text.toUpperCase()) //output THIS IS CAPITAL LETTER
+ }
+ upper() //output THIS IS CAPITAL LETTER
 
  
