@@ -23,11 +23,11 @@ let fruits=["apple","banana","mango"]
 // console.log(fruits.length)
 // console.log(fruits[1]) //array value access
 console.log(fruits.toString())  // prints the array as a string
-console.log(typeof (fruits.toString()))  
+console.log(typeof (fruits.toString()))   
 // let ans=fruits.toString()
 // console.log(typeof(ans))
 console.log(fruits.join('-'))
 console.log(typeof(fruits.join())) 
-
+console.log()
 
 console.log(fruits)
