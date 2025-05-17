@@ -174,3 +174,99 @@
 // }
 // ask()
 
+
+// ----------------------------Array question---------------------------------------------
+// find the maximum number of the Array [3,7,2,9,5]
+// let arr=[3,7,2,9,5]
+// let max=arr[0]
+// for(let i=1;i<arr.length;i++){
+//     if(arr[i]>max){
+//         max=arr[i];
+//     }
+// }
+// console.log(max)
+
+// count even and odd numbers
+// count how many even and odd number in thi array [1,2,3,5,4,,6,7,8,9]
+// let arr=[1,2,3,4,5,6,7,8,9]
+// let even=0
+// let odd=0
+// for(let i of arr){
+//     if(i%2==0){
+//         even=enve+1
+//         }
+//         else{
+//             odd=odd+1
+//         }
+// }
+// console.log("even number=" (even))
+// console.log('odd number='(odd))
+
+// reverse in array
+
+// let arr=[10,20,30,40,50]
+// let reversed=[]
+// // let j=0;
+// for(let i=arr.length-1; i>=0;i--){
+//    reversed.push(arr[i])  //push array me element ko pichhe se insert
+// //  reversed[j]=arr[i]
+// //  j++;
+// }
+// console.log("reversed=",reversed) 
+
+//second method
+
+// function reverse(){
+// let arr=[10,20,30,40,50]
+// let start=arr[0]
+// let end=arr.length-1
+// while(start<end){
+//     let temp=arr[start]
+//     arr[start]=arr[end]
+//     arr[end]=temp
+//     start++
+//     end--
+// }
+// console.log("reversed array :",arr)
+// }reverse()
+
+/// if element exist or not [3,5,7,9,11] check number 9
+
+// let arr=[3,5,7,9,11]
+// let search=9,b=false
+// for(let i=0; i<arr.length; i++){
+//     if(arr[i]==search){
+//         b=true
+//         break
+//     }
+// }console.log(b)
+
+//marge two array without using sprate operator
+
+// let arr=[1,2,3,4]
+// let arr2=[5,6,7,8]
+// let temp=[]
+// let j=0;
+// for(let i=0; i<arr.length; i++){
+//     temp[j]=arr[i];
+//     j++;
+// }
+// for(let k=0; k<arr2.length; k++){
+//     temp[j]=arr2[k]
+//     j++;
+// }
+// console.log(temp)
+
+//second method 
+
+// let arr=[1,2,3,4]
+// let arr2=[5,6,7,8]
+// let merged=[]
+// for(let i=0; i<arr.length; i++){
+//     merged.push(arr[i])
+// }
+// for(let i=0; i<arr2.length; i++){
+//     merged.push(arr2[i])
+// }
+// console.log(merged)
+
