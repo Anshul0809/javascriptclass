@@ -62,4 +62,5 @@ console.log(array.reverse())
 // let num=756238
 // let reverse_num=num.toString().split('').reverse().join('')
 // console.log(reverse_num)  //number 8
-
+ 
+console.log(Number)
