@@ -1,0 +1,34 @@
+ <!-- Question 2:
+  Create a program that:
+
+  Uses a confirm box to ask: "Do you want to see the numbers from 1 to 10?"
+  If the user clicks "OK", display numbers from 1 to 10 using a for loop and alert.
+  If the user clicks "Cancel", display "You canceled the action" using alert.. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 2</title>
+</head>
+<body>
+    <script>
+        let Question=confirm("Do you want to see the numbers from 1 to 10?")
+        console.log(Question);
+
+
+        if (Question==true) {
+            for (let i = 0; i < 11; i++) {
+                console.log(i);  
+            }
+        }
+        else{
+            console.log("that's okay");
+            
+        }
+        
+
+    </script>
+</body>
+</html>

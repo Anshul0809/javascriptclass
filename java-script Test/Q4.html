@@ -1,0 +1,36 @@
+<!-- Question 4
+   Write a program to find the sum of all positive numbers in an array
+
+   // Input:  let arr = [-5, 10, 20, -3, 7];
+
+   // Output:37 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 4</title>
+</head>
+
+<body>
+
+
+
+    <script>
+        let arr = [-5, 10, 20, -3, 7]
+        let sum=0
+        let count=0
+
+        for (let i=0; i<arr.length; i++) {
+            if (arr[i] > 0) {
+                sum += arr[i]
+            }
+        }
+        console.log(sum);
+        
+    </script>
+</body>
+
+</html>
