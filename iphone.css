@@ -1,0 +1,6 @@
+#box1{
+    background-image: url(./image/box2.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
