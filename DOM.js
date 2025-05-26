@@ -87,3 +87,53 @@ let show=()=>{
         mytag.style.display = "none"
     }
 }
+
+// first method 
+
+let increment=()=>{
+    let mytag=document.querySelector("#one")
+    let a=mytag.innerHTML
+    mytag.innerHTML=parseInt(a)+1
+    }
+    
+ let decrement=()=>
+        {
+        let mytag=document.querySelector("#one")
+        let a=mytag.innerHTML
+        if(a==0){
+           console.log("you cant decrement this number") 
+        }
+        else{
+            mytag.innerHTML=parseInt(a)-1
+        }
+        
+    }
+
+    // second method
+    let count=0
+    let increment2=()=>{
+        let mytag=document.querySelector("#one")
+        count++
+        mytag.innerHTML=count
+        
+    }
+    let decrement2=()=>{
+        let mytag=document.querySelector("#one")
+        if(count>0){
+        count--
+        mytag.innerHTML=count
+        }
+
+       
+    }
+
+    let change1=()=>{
+        let box=document.querySelector("#box")
+        box.style.background="red"
+    }
+    let change2=()=>{
+     let box=document.querySelector("#box")
+        box.style.background="green"
+    }
+    
+
