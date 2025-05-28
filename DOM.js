@@ -20,120 +20,136 @@
 //     alert("boy")
 //  }
 
-let callme=()=>{
-    // document.getElementById("") (camalecasegetElementById)
-    // document.getElementsByClassName("") 
-    // document.querySelector("#text")/(".text") 
-    let mytag= document.querySelector("#text")  
-    mytag.innerHTML=" <p> hello world </p>" 
-    mytag.textContent="" //(textContent tag support nahi karta)
+// let callme=()=>{
+//     // document.getElementById("") (camalecasegetElementById)
+//     // document.getElementsByClassName("") 
+//     // document.querySelector("#text")/(".text") 
+//     let mytag= document.querySelector("#text")  
+//     mytag.innerHTML=" <p> hello world </p>" 
+//     mytag.textContent="" //(textContent tag support nahi karta)
 
-    // alert("hello i am here")
-}
+//     // alert("hello i am here")
+// }
 
-let ans=()=>{
-    let mytag= document.querySelector("#gaj")
-    mytag.innerHTML="<i> Gajbhiye </i>"
-    let mytag2= document.querySelector(".ans")
-    mytag2.innerHTML="<i> Anshul </i> <h6> gajbh </h6> "
-    mytag.style.backgroundColor="red"
-    mytag.style.color="white"
-}
-// let gaj=()=>{
-//     let mytag= document.querySelectorAll("#gaj")  (same id,class ke liye)
+// let ans=()=>{
+//     let mytag= document.querySelector("#gaj")
 //     mytag.innerHTML="<i> Gajbhiye </i>"
+//     let mytag2= document.querySelector(".ans")
+//     mytag2.innerHTML="<i> Anshul </i> <h6> gajbh </h6> "
+//     mytag.style.backgroundColor="red"
+//     mytag.style.color="white"
+// }
+// // let gaj=()=>{
+// //     let mytag= document.querySelectorAll("#gaj")  (same id,class ke liye)
+// //     mytag.innerHTML="<i> Gajbhiye </i>"
+// // }
+
+// // 3button red blue green 
+
+
+
+// let red=()=>{
+//     let mytag=document.querySelector("#box")
+//     // mytag.style.backgroundColor="red"
+//     // mytag.style.border="5px solid green"
+//     mytag.style.backgroundImage="url('')"
+// }
+// let blue=()=>{
+//     let mytag=document.querySelector("#box")
+//     // mytag.style.backgroundColor="blue"
+
+//     mytag.style.border="5px solid yellow"
+// }
+// let reset=()=>{
+    
+//     mytag.style.backgroundColor=""
+//     mytag.style.border=""
 // }
 
-// 3button red blue green 
-
-
-
-let red=()=>{
-    let mytag=document.querySelector("#box")
-    // mytag.style.backgroundColor="red"
-    // mytag.style.border="5px solid green"
-    mytag.style.backgroundImage="url('')"
-}
-let blue=()=>{
-    let mytag=document.querySelector("#box")
-    // mytag.style.backgroundColor="blue"
-
-    mytag.style.border="5px solid yellow"
-}
-let reset=()=>{
+// let changeImg=()=>{
+//     let image=document.querySelector('#image')
+//     image.src="./image/box2.webp" 
+// }
+// // let hide=()=>{
+// //     let mytag=document.querySelector("#ans")
     
-    mytag.style.backgroundColor=""
-    mytag.style.border=""
-}
+// //     mytag.style.display="none"
 
-let changeImg=()=>{
-    let image=document.querySelector('#image')
-    image.src="./image/box2.webp" 
-}
-// let hide=()=>{
+// // }
+
+// let show=()=>{
 //     let mytag=document.querySelector("#ans")
-    
-//     mytag.style.display="none"
-
+//     if(mytag.style.display == "none")
+//     {
+//         mytag.style.display = "block"
+//     } 
+//     else {
+//         mytag.style.display = "none"
+//     }
 // }
 
-let show=()=>{
-    let mytag=document.querySelector("#ans")
-    if(mytag.style.display == "none")
-    {
-        mytag.style.display = "block"
-    } 
-    else {
-        mytag.style.display = "none"
-    }
-}
+// // first method 
 
-// first method 
-
-let increment=()=>{
-    let mytag=document.querySelector("#one")
-    let a=mytag.innerHTML
-    mytag.innerHTML=parseInt(a)+1
-    }
+// let increment=()=>{
+//     let mytag=document.querySelector("#one")
+//     let a=mytag.innerHTML
+//     mytag.innerHTML=parseInt(a)+1
+//     }
     
- let decrement=()=>
-        {
-        let mytag=document.querySelector("#one")
-        let a=mytag.innerHTML
-        if(a==0){
-           console.log("you cant decrement this number") 
-        }
-        else{
-            mytag.innerHTML=parseInt(a)-1
-        }
+//  let decrement=()=>
+//         {
+//         let mytag=document.querySelector("#one")
+//         let a=mytag.innerHTML
+//         if(a==0){
+//            console.log("you cant decrement this number") 
+//         }
+//         else{
+//             mytag.innerHTML=parseInt(a)-1
+//         }
         
-    }
+//     }
 
-    // second method
-    let count=0
-    let increment2=()=>{
-        let mytag=document.querySelector("#one")
-        count++
-        mytag.innerHTML=count
+//     // second method
+//     let count=0
+//     let increment2=()=>{
+//         let mytag=document.querySelector("#one")
+//         count++
+//         mytag.innerHTML=count
         
-    }
-    let decrement2=()=>{
-        let mytag=document.querySelector("#one")
-        if(count>0){
-        count--
-        mytag.innerHTML=count
-        }
+//     }
+//     let decrement2=()=>{
+//         let mytag=document.querySelector("#one")
+//         if(count>0){
+//         count--
+//         mytag.innerHTML=count
+//         }
 
        
-    }
+//     }
 
-    let change1=()=>{
-        let box=document.querySelector("#box")
-        box.style.background="red"
+//     let change1=()=>{
+//         let box=document.querySelector("#box")
+//         box.style.background="red"
+//     }
+//     let change2=()=>{
+//      let box=document.querySelector("#box")
+//         box.style.background="green"
+//     }
+
+    // ===================== Form =======================
+
+
+    let showw=()=>{
+        let inp=document.querySelector("#inptext").value
+        let show=document.querySelector("#show")
+        show.innerHTML=inp
+        
     }
-    let change2=()=>{
-     let box=document.querySelector("#box")
-        box.style.background="green"
+    let add=()=>{
+        let inp=document.querySelector("#first").value
+        let inp2=document.querySelector("#second").value
+        let show=document.querySelector("#showw")
+        show.innerHTML=parseInt(inp)+parseInt(inp2) 
     }
+   
     
-
