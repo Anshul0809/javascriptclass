@@ -152,4 +152,17 @@
         show.innerHTML=parseInt(inp)+parseInt(inp2) 
     }
    
+    let pass=()=>{
+        let inp=document.querySelector("#pass").value
+        let inp1=document.querySelector("#pass").type
+        if( inp1== "password"){
+            inp1.type="text"
+          
+        }
+        else{
+            inp1.type="password"
+        }
+        
+        
+    }
     
