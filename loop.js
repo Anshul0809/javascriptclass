@@ -60,7 +60,7 @@ fruits.forEach((e)=>{
 console.log(e)
 })
 
-// call back function kya hota hai 
-// highreroder fuction 
+// call back function kya hota hai =yesa function jo kisi ke aargument me paas kiya gaya 
+// highreroder fuction =map is ka higher order function qki usme andar ke function hota hai 
 
 
