@@ -36,11 +36,74 @@
 //     console.log(e*2)
 // })
  
-let num=[2,4,5,6,8,9]
-let newnum=num.map((e)=>{
-    return e/2
-})
-console.log(newnum)
+// let num=[2,4,5,6,8,9]
+// let newnum=num.map((e)=>{
+//     return e/2
+// })
+// console.log(newnum)
+
+// // Array of object 
+// let =[2,4,5,6]
+// let object={
+//     name:"anshul"
+//     age:25
+
+// }
+
+// Array of object 
+
+let student=[
+    {name:"Anshul",
+    age:20,
+    city:"bhopal",
+    college:"tit"
+    },
+
+    {name:"Anshul",
+    age:20,
+    city:"bhopal"},
+
+    {name:"Anshul",
+    age:20,
+    city:"bhopal"},
+{
+    name:"Anshul",
+    age:20,
+    city:"bhopal"
+}
+]
+
+    // let data=document.querySelector("#show")
+
+
+    // student.map((e)=>{
+    //     data.innerHTML+= `
+    //     <tr>
+
+    //     <td> ${e.name} </td>
+    //     <td> ${e.age} </td>
+    //     <td> ${e.city} </td>
+    //     </tr>
+        
+    //     `
+        
+    // })
+
+    let data=document.querySelector("#showa")
+
+    student.map((e)=>{
+        data.innerHTML+= `
+        <tr>
+        <td> ${e.name} </td>
+        <td> ${e.age} </td>
+        <td> ${e.city} </td>
+       <td> ${e.college} </td>
+
+        </tr>
+        
+        `
+    })
+
 
 
 

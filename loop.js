@@ -61,6 +61,6 @@ console.log(e)
 })
 
 // call back function kya hota hai =yesa function jo kisi ke aargument me paas kiya gaya 
-// highreroder fuction =map is ka higher order function qki usme andar ke function hota hai 
+// highreroder fuction =map is ka higher order function qki usme andar ke function hota hai =jo apne argument me ek function leta hai 
 
 
