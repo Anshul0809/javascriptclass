@@ -5,4 +5,4 @@ console.log(time.getFullYear()) //2025
 console.log(time.getMonth()) //5
 console.log(time.getDate()) // 17
 console.log(time.getDay()) // 14
-console.log(time.toLocaleString()) 
+console.log(time.toLocaleString())   
