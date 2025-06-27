@@ -105,5 +105,8 @@ let student=[
     })
 
 
+    // aos library
+    // gsap library 
+    // typed js 
 
 

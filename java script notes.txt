@@ -86,3 +86,7 @@ ans()
 
 *priority of operator in js
 1.string 2.Number
+
+
+
+json-server --watch db.json

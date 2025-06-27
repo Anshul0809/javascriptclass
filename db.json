@@ -1,0 +1,38 @@
+{
+  "hotelbooking":[
+    {
+    "name":"Anshul",
+    "mobile":"123456789",
+    "Adhar":"123456",
+    "checkin":"2025-06-23",
+    "checkout":"2025-06-26",
+    "city":"bhopal",
+    "person":3,
+    "total":1500
+    },
+    {
+        "name":"Rahul",
+        "mobile":"987654321",
+        "Adhar":"987654",
+        "checkin":"2025-06-24",
+        "checkout":"2025-06-27",
+        "city":"indore",
+        "person":2,
+        "total":1200
+    },
+    {
+        "name":"Rahul",
+        "mobile":"987654321",
+        "Adhar":"987654",
+         "checkin":"2025-06-24",
+        "checkout":"2025-06-27",
+        "city":"lahor",
+        "person":2,
+        "total":1000
+
+    }
+  ]
+
+
+
+}
