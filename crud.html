@@ -5,7 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body onload="fetchdata()">
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Adharno.</th>
+                <th>checkin</th>
+                <th>checkout</th>
+                <th>city</th>
+                <th>people</th>
+                <th>total</th>
+                <th>delect</th>
+                <th>Ubdate</th>
+            </tr>
+        </thead>
+        <tbody id="datashow"></tbody>
+    </table>
+
+    <div id="formshow"></div>
     
     
     <script src="./crud.js"></script>

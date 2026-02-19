@@ -1,38 +1,68 @@
 {
-  "hotelbooking":[
+  "hotelbooking": [
     {
-    "name":"Anshul",
-    "mobile":"123456789",
-    "Adhar":"123456",
-    "checkin":"2025-06-23",
-    "checkout":"2025-06-26",
-    "city":"bhopal",
-    "person":3,
-    "total":1500
+      "name": "Anshul",
+      "mobile": "123456789",
+      "Adhar": "123456",
+      "checkin": "2025-06-23",
+      "checkout": "2025-06-26",
+      "city": "bhopal",
+      "person": 3,
+      "price": 1500,
+      "id": "8623"
     },
-    {
-        "name":"Rahul",
-        "mobile":"987654321",
-        "Adhar":"987654",
-        "checkin":"2025-06-24",
-        "checkout":"2025-06-27",
-        "city":"indore",
-        "person":2,
-        "total":1200
-    },
-    {
-        "name":"Rahul",
-        "mobile":"987654321",
-        "Adhar":"987654",
-         "checkin":"2025-06-24",
-        "checkout":"2025-06-27",
-        "city":"lahor",
-        "person":2,
-        "total":1000
 
+    {
+      "name": "Rahul",
+      "mobile": "987654321",
+      "Adhar": "987654",
+      "checkin": "2025-06-24",
+      "checkout": "2025-06-27",
+      "city": "indore",
+      "person": 2,
+      "price": 1200,
+      "id": "2e71"
+    },
+    {
+      "name": "Rahul",
+      "mobile": "987654321",
+      "Adhar": "987654",
+      "checkin": "2025-06-24",
+      "checkout": "2025-06-27",
+      "city": "lahor",
+      "person": 2,
+      "price": 1000,
+      "id": "2793"
+    },
+    {
+      "id": "548c",
+      "name": "Anshul",
+      "Adhar": "5654874",
+      "checkin": "2025-07-02",
+      "checkout": "2025-07-03",
+      "city": "bhopal",
+      "person": "5",
+      "price": 500
+    },
+    {
+      "id": "a242",
+      "name": "Anshu",
+      "Adhar": "65461",
+      "checkin": "2025-07-02",
+      "checkout": "2025-07-03",
+      "city": "bhopal",
+      "person": "5",
+      "price": 500
+    },
+    {
+      "id": "8901",
+      "name": "Ansh",
+      "Adhar": "421165",
+      "checkin": "2025-07-02",
+      "checkout": "2025-07-02",
+      "city": "bhopal",
+      "person": "6",
+      "price": 500
     }
   ]
-
-
-
 }
