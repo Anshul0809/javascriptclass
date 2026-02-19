@@ -1,0 +1,44 @@
+{
+  "hotel": [
+    {
+      "name": "Anshul",
+      "Adhar": "123456",
+      "checkin": "2025-06-23",
+      "checkout": "2025-06-26",
+      "city": "bhopal",
+      "person": 3,
+      "total": 1500,
+      "id": "2bb7"
+    },
+    {
+      "name": "rahul",
+      "Adhar": "123456",
+      "checkin": "2025-06-23",
+      "checkout": "2025-06-26",
+      "city": "bhopal",
+      "person": 1,
+      "total": 500,
+      "id": "3601"
+    },
+    {
+      "name": "hariom",
+      "Adhar": "123456",
+      "checkin": "2025-06-23",
+      "checkout": "2025-06-26",
+      "city": "bhopal",
+      "person": 2,
+      "total": 1000,
+      "id": "59b9"
+    },
+    {
+      "id": "11cb",
+      "name": "Anshul gajbhiye",
+      "Adhar": "1234598231",
+      "city": "Indore",
+      "checkin": "2025-08-13",
+      "checkout": "2025-08-22",
+      "person": "4",
+      "total": 500
+    }
+  ]
+}
